@@ -7,8 +7,8 @@
       <span v-for="area in areas" :key="area">{{ area }}</span>
     </div>
     <div class="actions">
-      <router-link :to="tutorContactLink">Contact</router-link>
-      <router-link :to="tutorDetailsLink">View More</router-link>
+      <!-- <baseButton :mode="outline" :to="tutorContactLink">Contact</baseButton>
+      <baseButton :to="tutorDetailsLink">View More</baseButton> -->
     </div>
   </li>
 </template>
@@ -34,6 +34,7 @@ li {
   border: 1px solid #424242;
   border-radius: 12px;
   padding: 1rem;
+  list-style: none;
 }
 
 h3 {
